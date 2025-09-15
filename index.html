@@ -1,0 +1,282 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Quinglish Docs</title>
+  <!-- Link CSS -->
+  <link rel="stylesheet" href="index.css" />
+</head>
+<body>
+  <div class="topbar" role="navigation" aria-label="Utility">
+    <div class="crumbs">Docs ▸ <strong>Quinglish / ChatsGotYourTongue / Ciatric</strong></div>
+    <div class="spacer"></div>
+    <button class="btn" id="themeToggle" title="Toggle dark mode" aria-pressed="false">🌗 Theme</button>
+  </div>
+
+  <div class="layout">
+    <nav id="navbar" aria-label="Table of contents">
+      <div id="brand">
+        <svg width="24" height="24" viewBox="0 0 24 24" fill="none" aria-hidden="true">
+          <circle cx="12" cy="12" r="9" stroke="currentColor" stroke-width="2" />
+          <path d="M6.5 12h11M12 6.5v11" stroke="currentColor" stroke-width="2" />
+        </svg>
+        <div>
+          <h1>Project Docs</h1>
+          <small>Quinglish • CGYT • Ciatric</small>
+        </div>
+      </div>
+      <div class="nav-search"><input id="tocFilter" type="search" placeholder="Filter sections…" aria-label="Filter sections" /></div>
+      <ul id="toc">
+        <!-- JS fills this -->
+      </ul>
+    </nav>
+
+    <main id="main-doc">
+      <section class="main-section" id="overview">
+        <header>Overview</header>
+        <article>
+          <p class="callout info"><strong>What is <em>Quinglish</em>, Anyway?</strong>  
+          Brief pitch (2–3 sentences)…</p>
+        </article>
+      </section>
+
+  
+      <!-- ======= GETTING STARTED ======= -->
+      <section class="main-section" id="getting-started">
+        <header>Getting Started</header>
+        <article>
+          <ul>
+            <li>Install (local dev, optional containers) and repo layout.</li>
+            <li>Quickstart commands.</li>
+            <li>How to preview this docs page locally.</li>
+          </ul>
+          <pre><code class="language-bash"># Quickstart (example — edit to match your repos)
+# 1) Clone mono or individual repos
+$ git clone https://github.com/your-org/quinglish-docs
+$ cd quinglish-docs
+
+# 2) Open locally
+$ python3 -m http.server 5500
+# → visit http://localhost:5500
+</code></pre>
+        </article>
+      </section>
+
+      <!-- ======= CORE CONCEPTS ======= -->
+      <section class="main-section" id="core-concepts">
+        <header>Core Concepts</header>
+        <article>
+          <ul>
+            <li><strong>Modern Phrase Theory:</strong> modular phrase tokens; <code class="inline">buddy‑clauses</code>; telegraphic ↔ ornate.</li>
+            <li><strong>Moonwalk Method:</strong> rhythmic back‑chaining drills; layered repetition.</li>
+            <li><strong>NPC Scenarios:</strong> Airport Bardo; restaurant; rentals; small talk.</li>
+            <li><strong>Ciatric:</strong> semantic event bus (#SEB), tagging, embeddings, RAG.</li>
+          </ul>
+        </article>
+      </section>
+      <section class="main-section" id="core-concepts">
+        <header>Modern Phrase Theory</header>
+        <h2>What is a Buddy Clause?</h2>
+        <p>
+          A <strong>buddy clause</strong> is a short, modular, self-contained phrase that can be used independently or “snapped” onto another clause to build more complex sentences. Think of them as Lego blocks for spoken English: each block makes sense on its own and can easily combine with others to expand meaning, add detail, or clarify context.
+        </p>
+
+        <h3>Example:</h3>
+        <blockquote>
+          “As a young man living in the United States, Mark used to dream of walking the streets of Paris.”
+        </blockquote>
+        <ul>
+          <li><strong>Buddy clause:</strong> “As a young man living in the United States”</li>
+          <li><strong>Main clause:</strong> “Mark used to dream of walking the streets of Paris.”</li>
+        </ul>
+
+        <h2>Purpose of the Buddy Clause</h2>
+        <ol>
+          <li>
+            <strong>Gives you a starting point:</strong><br>
+            Buddy clauses give learners something—anything—to say. They’re a way to break the ice, set a rhythm, and give your speech forward motion (think jazz: even if you don’t know the whole song, you’ve got the groove). A good start builds confidence and helps to focus the mind of the speaker and the attention of the listener.
+          </li>
+          <li>
+            <strong>Aids comprehension:</strong><br>
+            Buddy clauses usually come first and establish a timeframe, location, or point of view—like “Once upon a time, in Hollywood…” or “As a young man living in the United States…” This sets up whatever action, feeling, or story comes next. In a sense, the buddy clause acts as the antecedent, making what follows feel anchored and meaningful.
+          </li>
+          <li>
+            <strong>Encourages flexible, modular thinking:</strong><br>
+            Like building with Lego blocks, learners can “plug and play” buddy clauses, swap parts in and out, and remix them to fit the moment. This mirrors how native speakers naturally elaborate, clarify, or riff in conversation.
+          </li>
+          <li>
+            <strong>Bridges telegraphic and natural English:</strong><br>
+            Buddy clauses help learners go from “barebones” or “telegraphic” English (e.g., “When young man he dream about Paris”) to more natural, native-like phrasing—without feeling overwhelmed. They’re the missing link between “simple words” and “real talk.”
+          </li>
+          <li>
+            <strong>Mirrors spoken conversation:</strong><br>
+            In speech, people often layer “buddy” clauses for nuance:
+            <blockquote>
+              “Well, as I said yesterday, if it rains, I’ll just stay home.”
+            </blockquote>
+            <ul>
+              <li>“as I said yesterday” = buddy clause</li>
+              <li>“if it rains” = conditional/subordinate clause</li>
+              <li>“I’ll just stay home” = main clause</li>
+            </ul>
+          </li>
+        </ol>
+
+        <p>
+          <strong>#Quinglish #BuddyClause #ModularEnglish #Chunking #ESL #PhraseBlocks</strong>
+        </p>
+        <p>
+          Let me know if you want more technical examples or want to see how to teach these with NPCs in a role-play!
+        </p>
+      </section>
+
+      <!-- ======= QUINGLISH ======= -->
+      <section class="main-section" id="quinglish">
+        <header>Quinglish (Phrase‑Based English)</header>
+        <article>
+          <p>Define Quinglish, its goals, and how it differs from ESL grammar drills.</p>
+          <h3>Tokenizer & Tokens</h3>
+          <p>Describe token classes (e.g., <code class="inline">actor</code>, <code class="inline">action</code>, <code class="inline">time</code>, <code class="inline">modifier</code>), plus <em>buddy‑clauses</em>.</p>
+          <pre><code class="block"># Example JSON tokenization (edit with real examples)
+{
+  "id": "ex-001",
+  "input": "I go store yesterday. Buy apples. No good.",
+  "tokens": [
+    {"t": "actor", "v": "I"},
+    {"t": "action", "v": "go", "tense": "past"},
+    {"t": "place", "v": "store"},
+    {"t": "time", "v": "yesterday"}
+  ],
+  "normalized": "I went to the store yesterday.",
+  "phrasal_expansions": [
+    "pick up apples",
+    "they turned out bad"
+  ]
+}
+</code></pre>
+        </article>
+      </section>
+
+      <!-- ======= MOONWALK ======= -->
+      <section class="main-section" id="moonwalk">
+        <header>Moonwalking</header>
+        <article>
+          <p>Just like a musician learning to play a musical phrase we embrace the forward-motion of of a literal phrase. The last word is important so thats where we start</p>
+          <pre><code class="block">Example Drill:  (back‑chain layers)
+I went to the store yesterday to pick up some apples but they ended up not being very good.
+"good..very good..
+not being very good"
+"ended up..they ended up"
+"not being very good"
+"they ended up not being very good."
+"but they ended up not being very good"
+<em>(continue back to the previous phrases)</em>
+"to pick up some apples" "yesterday" and "I went to the store"
+</code></pre>
+        </article>
+      </section>
+
+      <!-- ======= CHATS GOT YOUR TONGUE ======= -->
+      <section class="main-section" id="cgyt">
+        <header>ChatsGotYourTongue (Interactive Role‑Play)</header>
+        <article>
+          <p>NPC loops, scenarios, and role prompts. Explain how vocabulary is scoped to the user’s <em>word repo</em>.</p>
+          <h3>Scenario Spec</h3>
+          <pre><code class="block"># Airport Bardo (spec excerpt)
+{
+  "id": "airport-bardo",
+  "roles": ["learner", "agent"],
+  "vocab_floor": ["passport", "gate", "boarding"],
+  "difficulty": 1,
+  "loop": "Groundhog‑day style until success criteria met"
+}
+</code></pre>
+        </article>
+      </section>
+
+      <!-- ======= API / CLI ======= -->
+      <section class="main-section" id="api-cli">
+        <header>API / CLI</header>
+        <article>
+          <p>Document how to call the tokenizer, drills, and scenario engines.</p>
+          <pre><code class="block"># Example CLI
+$ quinglish tokenize --in sample.txt --out tokens.jsonl
+$ cgyt run --scenario airport-bardo --user mike
+</code></pre>
+        </article>
+      </section>
+
+      <!-- ======= DATA SCHEMA ======= -->
+      <section class="main-section" id="data-schema">
+        <header>Data Schema (JSONL)</header>
+        <article>
+          <p>Branch‑aware <code class="inline">JSONL</code> seeds for tagging, embeddings, and evaluation.</p>
+          <pre><code class="block">{"id":"pair-001#s0","role":"user","text":"As a young man…","hashtags":["#BuddyClause","#Ornate"],"meta":{"thread":"abc","ts":"2025-09-10"}}
+{"id":"pair-001#r0","role":"assistant","text":"Normalized…","hashtags":["#Basic","#Moonwalk"],"meta":{"model":"gpt"}}
+</code></pre>
+        </article>
+      </section>
+
+      <!-- ======= CIATRIC ======= -->
+      <section class="main-section" id="ciatric">
+        <header>Ciatric (Semantic Brain / Search)</header>
+        <article>
+          <p>Describe the Semantic Event Bus (#SEB), tagging pipeline, embeddings, and RAG.</p>
+          <ul>
+            <li>Voice‑likelihood scorer, completion tagger, accuracy evaluator.</li>
+            <li>Vector DB choices (local‑first), privacy, ownership.</li>
+          </ul>
+        </article>
+      </section>
+
+      <!-- ======= ROADMAP ======= -->
+      <section class="main-section" id="roadmap">
+        <header>Roadmap</header>
+        <article>
+          <ul>
+            <li>MVPs & demo milestones.</li>
+            <li>Data collection ethics (#ConsentPipeline).</li>
+            <li>Open‑source & collaboration invites.</li>
+          </ul>
+        </article>
+      </section>
+
+      <!-- ======= GLOSSARY ======= -->
+      <section class="main-section" id="glossary">
+        <header>Glossary</header>
+        <article>
+          <ul>
+            <li><strong>Buddy‑clause:</strong> your compact phrase pair unit.</li>
+            <li><strong>Moonwalk:</strong> back‑chaining drill pattern.</li>
+            <li><strong>NPC:</strong> non‑player character used for role‑play.</li>
+          </ul>
+        </article>
+      </section>
+
+      <!-- ======= REFERENCES ======= -->
+      <section class="main-section" id="references">
+        <header>References</header>
+        <article>
+          <ul>
+            <li>Add links to papers, prior art, FCC project spec, etc.</li>
+          </ul>
+        </article>
+      </section>
+
+      <footer>
+        © <span id="year"></span> Quinglish / ChatsGotYourTongue / Ciatric. Built with a single HTML file. Edit and ship.
+      </footer>
+    </main>
+  </div>
+
+      <footer>
+        © <span id="year"></span> Quinglish / ChatsGotYourTongue / Ciatric
+      </footer>
+    </main>
+  </div>
+
+  <!-- Link JS -->
+  <script src="index.js"></script>
+</body>
+</html>
