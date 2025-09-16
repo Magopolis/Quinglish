@@ -60,25 +60,29 @@
                     If that sounds like you, drop your info below — I’ll reach out when the time’s right.
                 </p>
 
-                <form action="https://formspree.io/f/mwpnjdad" method="POST">
-                    <label>
-                        Your Name:
-                        <input type="text" name="name" required>
-                    </label>
-                    <br>
-                    <label>
-                        Email Address:
-                        <input type="email" name="email" required>
-                    </label>
-                    <br>
-                    <label>
-                        How would you like to get involved?
-                        <textarea name="message" rows="4" placeholder="Beta testing, pedagogy, just curious..."
-                            required></textarea>
-                    </label>
-                    <br>
-                    <button type="submit">Submit</button>
-                </form>
+                <form action="https://formspree.io/f/mwpnjdad" method="POST" class="contact-form">
+  <fieldset>
+    <legend>Get Involved</legend>
+
+    <label for="name">Your Name:</label>
+    <input type="text" id="name" name="name" required>
+
+    <label for="email">Email Address:</label>
+    <input type="email" id="email" name="email" required>
+
+    <label for="message">How would you like to get involved?</label>
+    <textarea id="message" name="message" rows="4" placeholder="Beta testing, pedagogy, just curious..." required></textarea>
+
+    <!-- Honeypot field for bots -->
+    <input type="text" name="_gotcha" style="display:none">
+
+    <!-- Redirect to thank-you page -->
+    <input type="hidden" name="_redirect" value="https://quinglish.com/thanks.html">
+
+    <button type="submit" class="btn-submit">Submit</button>
+  </fieldset>
+</form>
+
             </section>
 
             <!-- ======= CORE CONCEPTS ======= -->
