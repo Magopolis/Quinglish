@@ -220,4 +220,11 @@ footer {
     position: relative;
     height: auto;
   }
+   /* Code wrapping fix for mobile */
+  pre, code {
+    white-space: pre-wrap !important;
+    word-break: break-word;
+    font-size: 0.9em;     /* optional: slightly smaller */
+    padding: 0.5em;       /* optional: breathing room */
+  }
 }
